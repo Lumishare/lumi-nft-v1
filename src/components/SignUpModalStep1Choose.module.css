@@ -1,0 +1,218 @@
+.signUpModalStep1ChooseChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  opacity: 0.21;
+}
+.letsCreateYour {
+  position: absolute;
+  top: calc(50% - 292.65px);
+  left: 144px;
+  font-size: var(--font-size-21xl);
+  line-height: 40px;
+  font-weight: 600;
+}
+.alreadyAMemberContainer,
+.chooseYourProfile {
+  position: absolute;
+  top: 264px;
+  left: calc(50% - 176.5px);
+  display: inline-block;
+  width: 353px;
+}
+.alreadyAMemberContainer {
+  top: 499px;
+}
+.component1393Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.creator {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 31px);
+}
+.component1393 {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 100px;
+  width: 258px;
+  height: 60px;
+  font-size: var(--font-size-lg);
+}
+.investor {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 34.5px);
+}
+.component1394 {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 100px;
+  width: 251px;
+  height: 60px;
+  font-size: var(--font-size-lg);
+}
+.next {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 20.5px);
+  line-height: 12px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.groupChild,
+.nextWrapper {
+  position: absolute;
+  box-sizing: border-box;
+}
+.nextWrapper {
+  width: calc(100% - 200px);
+  top: calc(50% + 89px);
+  right: 100px;
+  left: 100px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumseagreen);
+  border: 1px solid var(--color-gainsboro-100);
+  height: 60px;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.groupChild {
+  width: calc(100% - 42px);
+  top: calc(50% - 12px);
+  right: 24.5px;
+  left: 17.5px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  height: 2px;
+}
+.profileType {
+  top: 49px;
+  left: calc(50% - 37px);
+  text-transform: capitalize;
+}
+.div,
+.groupItem,
+.profileType {
+  position: absolute;
+}
+.groupItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  top: calc(50% - 9px);
+  left: calc(50% - 5px);
+  font-weight: 600;
+}
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.profileTypeParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 74px;
+}
+.div1,
+.signUp {
+  position: absolute;
+  opacity: 0.5;
+}
+.signUp {
+  top: 49px;
+  left: calc(50% - 25px);
+  text-transform: capitalize;
+}
+.div1 {
+  top: calc(50% - 9px);
+  left: calc(50% - 6px);
+  font-weight: 600;
+}
+.ellipseGroup {
+  position: absolute;
+  width: calc(100% - 10px);
+  top: 0;
+  right: 5px;
+  left: 5px;
+  height: 40px;
+  font-size: var(--font-size-3xl);
+}
+.signUpParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+}
+.lineParent {
+  position: absolute;
+  width: calc(100% - 199px);
+  top: calc(50% - 209px);
+  right: 99px;
+  left: 100px;
+  height: 63px;
+  font-size: var(--font-size-sm);
+}
+.iconlylightOutlinecloseSqu {
+  position: absolute;
+  top: 11.27px;
+  right: 11.27px;
+  width: 29.46px;
+  height: 29.46px;
+}
+.letsCreateYourAccountParent {
+  position: absolute;
+  height: calc(100% - 248px);
+  top: 124px;
+  bottom: 124px;
+  left: calc(50% - 367px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 735px;
+}
+.signUpModalStep1Choose {
+  position: relative;
+  width: 1920px;
+  height: 920px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+  font-family: var(--font-exo-2);
+}

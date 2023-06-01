@@ -1,0 +1,196 @@
+.div {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.div,
+.rate,
+.starIcon {
+  position: absolute;
+}
+.starIcon {
+  height: calc(100% - 24.47px);
+  top: 12.73px;
+  right: 0;
+  bottom: 11.73px;
+  max-height: 100%;
+  width: 32.14px;
+  opacity: 0.5;
+}
+.rate {
+  top: calc(50% + 207px);
+  right: 18.93px;
+  width: 106.07px;
+  height: 55px;
+  display: none;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+}
+.menu1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 154px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.groupParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  font-size: var(--font-size-7xl);
+}
+.leaderboard {
+  position: absolute;
+  top: 7px;
+  left: 50px;
+  font-weight: 600;
+}
+.trophyIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 30px;
+}
+.leaderboardParent {
+  position: relative;
+  width: 166px;
+  height: 28.79px;
+  margin-left: 5px;
+}
+.swap {
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 1px);
+  font-weight: 600;
+}
+.component1311 {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.path38313Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 32.28px;
+}
+.iconlylightOutlinebuy {
+  position: absolute;
+  bottom: 1.68px;
+  left: 5.38px;
+  width: 25.56px;
+  height: 24.97px;
+}
+.myCart {
+  position: absolute;
+  top: 9.14px;
+  left: calc(50% - 8px);
+  font-weight: 600;
+}
+.path38313Parent {
+  position: relative;
+  width: 124px;
+  height: 32.28px;
+}
+.walletIcon {
+  position: absolute;
+  height: calc(100% - 3px);
+  width: calc(100% - 113.36px);
+  top: 0;
+  right: 113.36px;
+  bottom: 3px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.myWallet {
+  position: absolute;
+  top: 4.17px;
+  left: calc(50% - 20px);
+  font-weight: 600;
+}
+.walletParent {
+  position: relative;
+  width: 136px;
+  height: 24.17px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.logOut {
+  position: absolute;
+  top: 5.4px;
+  left: calc(50% - 14px);
+  font-weight: 600;
+}
+.logOutIcon {
+  position: absolute;
+  height: calc(100% - 0.6px);
+  top: 0;
+  bottom: 0.6px;
+  left: 0;
+  max-height: 100%;
+  width: 22.92px;
+}
+.logOutParent {
+  position: relative;
+  width: 116px;
+  height: 25.4px;
+  margin-left: 9px;
+}
+.groupContainer {
+  position: absolute;
+  top: 113.63px;
+  left: 15px;
+  width: 171px;
+  height: 320.47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.component11813 {
+  position: absolute;
+  width: calc(100% + 6px);
+  right: -6px;
+  bottom: -6px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 66px;
+}
+.menu {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 812px;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-exo-2);
+}

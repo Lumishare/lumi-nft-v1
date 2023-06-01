@@ -1,0 +1,691 @@
+.greenEnergyAssets {
+  position: absolute;
+  top: 0;
+  left: 11.5px;
+  font-weight: 600;
+}
+.agricultureImageIcon,
+.component91318Child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.component91318Child {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+.agricultureImageIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  object-fit: cover;
+}
+.div1,
+.price {
+  position: absolute;
+}
+.div1 {
+  top: 16px;
+  right: 10px;
+  font-weight: 600;
+}
+.price {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+}
+.lumiIcon {
+  height: 50%;
+  width: 21.92%;
+  top: 43.75%;
+  right: 0;
+  bottom: 6.25%;
+  left: 78.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div2,
+.lumiIcon,
+.parent {
+  position: absolute;
+}
+.parent {
+  top: calc(50% + 26.5px);
+  right: 254px;
+  width: 73px;
+  height: 32px;
+}
+.div2 {
+  top: calc(50% + 41.5px);
+  right: 14px;
+  font-weight: 500;
+  color: var(--color-mediumseagreen);
+  text-align: right;
+}
+.groupChild,
+.rectangleWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.groupChild {
+  height: 100%;
+  top: 0;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--color-mediumseagreen);
+  width: 109px;
+}
+.rectangleWrapper {
+  width: 100%;
+  right: 0;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--color-gainsboro-100);
+  height: 6px;
+}
+.averageRevenue,
+.m {
+  position: absolute;
+  top: 0;
+}
+.m {
+  right: 157px;
+  font-weight: 500;
+}
+.averageRevenue {
+  left: 0;
+  color: var(--color-darkgray);
+}
+.groupParent {
+  position: absolute;
+  width: calc(100% - 30px);
+  top: calc(50% + 79.5px);
+  right: 15px;
+  left: 15px;
+  height: 30px;
+  font-size: var(--font-size-sm);
+}
+.yield {
+  position: absolute;
+  top: calc(50% + 26.5px);
+  left: calc(50% + 129px);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+}
+.component91318Item {
+  position: absolute;
+  width: calc(100% + 1px);
+  top: calc(50% + 128.5px);
+  right: 0;
+  left: -1px;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 2px;
+}
+.addToCartChild {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 156px;
+  height: 59px;
+}
+.iconlylightOutlinebuy {
+  position: absolute;
+  bottom: 19.46px;
+  left: calc(50% - 55px);
+  width: 20px;
+  height: 19.54px;
+}
+.addToCart1 {
+  position: absolute;
+  bottom: 19px;
+  left: calc(50% - 25px);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.addToCart,
+.buyNowChild {
+  position: absolute;
+  bottom: 0;
+}
+.addToCart {
+  left: calc(50% - 101px);
+  width: 156px;
+  height: 59px;
+  color: var(--color-gray-300);
+}
+.buyNowChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-mini) 0;
+  background-color: var(--color-white);
+  opacity: 0.8;
+}
+.buyNow1 {
+  position: absolute;
+  right: 24px;
+  bottom: 19px;
+  font-weight: 500;
+}
+.buyNow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 116px;
+  height: 59px;
+}
+.component91318Inner,
+.lineDiv {
+  position: absolute;
+  width: calc(100% - 340px);
+  top: calc(50% + 128.5px);
+  right: 115px;
+  left: 225px;
+  border-right: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 60px;
+}
+.lineDiv {
+  right: 271px;
+  left: 69px;
+}
+.component941 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 59px;
+}
+.farmLocation,
+.farmName {
+  position: absolute;
+  top: calc(50% - 37.5px);
+  left: 16px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-white);
+}
+.farmLocation {
+  top: calc(50% - 16.5px);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  display: inline-block;
+  width: 173px;
+  height: 17px;
+}
+.iconAwesomeStar,
+.starIcon {
+  position: absolute;
+  top: 0;
+  width: 11.21px;
+  height: 10.73px;
+}
+.starIcon {
+  right: 1px;
+}
+.iconAwesomeStar {
+  left: calc(50% + 9.89px);
+}
+.iconAwesomeStar1 {
+  left: calc(50% - 6.11px);
+}
+.iconAwesomeStar1,
+.iconAwesomeStar2,
+.iconAwesomeStar3 {
+  position: absolute;
+  top: 0;
+  width: 11.21px;
+  height: 10.73px;
+}
+.iconAwesomeStar2 {
+  left: calc(50% - 22.11px);
+}
+.iconAwesomeStar3 {
+  left: 0;
+}
+.div3 {
+  position: absolute;
+  right: -1px;
+  bottom: 0;
+}
+.starIconParent {
+  position: absolute;
+  top: calc(50% - 32.09px);
+  right: 14px;
+  width: 76.21px;
+  height: 32.19px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.component91318,
+.shareIcon {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 30px;
+  height: 30px;
+}
+.component91318 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.div,
+.div12,
+.div16,
+.div4,
+.div8 {
+  position: absolute;
+  height: 89.34%;
+  width: 23.75%;
+  top: 4.15%;
+  right: 74.69%;
+  bottom: 6.52%;
+  left: 1.56%;
+}
+.div12,
+.div16,
+.div4,
+.div8 {
+  right: 50.03%;
+  left: 26.22%;
+}
+.div12,
+.div16,
+.div8 {
+  right: 25.38%;
+  left: 50.87%;
+}
+.div12,
+.div16 {
+  right: 0.73%;
+  left: 75.52%;
+}
+.div16 {
+  right: -23.92%;
+  left: 100.17%;
+}
+.repeatGrid33,
+.scrollGroup34 {
+  position: absolute;
+  height: 422px;
+}
+.repeatGrid33 {
+  top: calc(50% - 211px);
+  left: calc(50% - 199px);
+  width: 1440px;
+}
+.scrollGroup34 {
+  width: 100%;
+  top: calc(50% - 205.75px);
+  right: 0;
+  left: 0;
+  overflow-x: auto;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-base);
+}
+.greenEnergyAssetsParent {
+  position: absolute;
+  width: calc(100% + 1px);
+  top: calc(50% - 230.5px);
+  right: 0.5px;
+  left: -1.5px;
+  height: 432.5px;
+}
+.posts,
+.videos {
+  position: absolute;
+  top: 4px;
+  font-weight: 600;
+}
+.posts {
+  left: 11.5px;
+}
+.videos {
+  left: calc(50% - 109.5px);
+  color: var(--color-darkgray);
+}
+.scrollGroup23 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 203.75px);
+  right: 0;
+  left: 0;
+  height: 422px;
+  overflow-x: auto;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-base);
+}
+.component1261 {
+  position: absolute;
+  width: calc(100% + 1px);
+  right: 0.5px;
+  bottom: 63.5px;
+  left: -1.5px;
+  height: 436.5px;
+}
+.maskGroup201 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 178px;
+  object-fit: cover;
+}
+.div40,
+.starIcon10 {
+  position: absolute;
+  opacity: 0.5;
+}
+.div40 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.starIcon10 {
+  height: calc(100% - 24.47px);
+  top: 12.73px;
+  right: 0;
+  bottom: 11.73px;
+  max-height: 100%;
+  width: 32.14px;
+}
+.rate {
+  position: absolute;
+  top: calc(50% - 107.5px);
+  right: 18.93px;
+  width: 106.07px;
+  height: 55px;
+  display: none;
+  font-size: var(--font-size-26xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+.creatorName {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: 0;
+  line-height: 25px;
+  font-weight: 600;
+}
+.creatorNameWrapper {
+  position: absolute;
+  top: 215px;
+  left: 10px;
+  width: 163px;
+  height: 26px;
+  font-size: var(--font-size-7xl);
+}
+.creatorProfileChild {
+  position: absolute;
+  height: calc(100% - 1411.71px);
+  top: 213.21px;
+  bottom: 1198.5px;
+  left: calc(50% - 0px);
+  max-height: 100%;
+  width: 23.74px;
+}
+.descriptionLoremIpsum {
+  position: absolute;
+  width: calc(100% + 1px);
+  top: 0;
+  left: 0;
+  line-height: 19px;
+  display: inline-block;
+  height: 39px;
+}
+.seeMore {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+.unionIcon {
+  position: absolute;
+  top: calc(50% - 2.58px);
+  left: calc(50% - 4.75px);
+  width: 9.54px;
+  height: 5.23px;
+}
+.unionWrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 19px;
+}
+.seeMoreParent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 82px;
+  height: 19px;
+}
+.descriptionLoremIpsumDolorParent {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: calc(50% - 324.5px);
+  right: 10px;
+  left: 10px;
+  height: 61px;
+  font-size: var(--font-size-sm);
+}
+.creatorProfileItem {
+  position: absolute;
+  width: calc(100% + 25px);
+  top: 0;
+  right: -25px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 86px;
+}
+.creatorProfileInner {
+  position: absolute;
+  top: 128px;
+  left: 10px;
+  width: 75px;
+  height: 75px;
+}
+.iconAwesomeStar40,
+.starIcon11 {
+  position: absolute;
+  top: 0;
+  width: 11.21px;
+  height: 10.73px;
+}
+.starIcon11 {
+  right: 0;
+}
+.iconAwesomeStar40 {
+  left: calc(50% + 27.29px);
+}
+.iconAwesomeStar41 {
+  left: calc(50% + 11.29px);
+}
+.iconAwesomeStar41,
+.iconAwesomeStar42,
+.iconAwesomeStar43 {
+  position: absolute;
+  top: 0;
+  width: 11.21px;
+  height: 10.73px;
+}
+.iconAwesomeStar42 {
+  left: calc(50% - 4.71px);
+}
+.iconAwesomeStar43 {
+  left: 33.79px;
+}
+.div41 {
+  position: absolute;
+  right: 83px;
+  bottom: 0;
+}
+.starIconParent8 {
+  position: absolute;
+  top: calc(50% - 499.87px);
+  right: 10px;
+  width: 109px;
+  height: 13.37px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+}
+.sendAMessage {
+  position: absolute;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 59px);
+  font-weight: 500;
+}
+.component1053Child,
+.sendAMessageWrapper {
+  position: absolute;
+  border-radius: var(--br-5xs);
+}
+.sendAMessageWrapper {
+  top: calc(50% - 17px);
+  left: calc(50% - 30.5px);
+  background-color: var(--color-gainsboro-100);
+  width: 175px;
+  height: 34px;
+}
+.component1053Child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumseagreen);
+}
+.follow {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 23px);
+  font-weight: 500;
+}
+.followWrapper {
+  position: absolute;
+  top: calc(50% - 5.6px);
+  left: calc(50% - 25px);
+  width: 46px;
+  height: 16px;
+}
+.component1053 {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 0;
+  width: 104px;
+  height: 34px;
+  color: var(--color-white);
+}
+.groupParent8 {
+  position: absolute;
+  top: calc(50% - 387.5px);
+  left: 10px;
+  width: 289px;
+  height: 34px;
+  font-size: var(--font-size-base);
+}
+.followers {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.following {
+  left: 248px;
+}
+.following,
+.m10,
+.posts1 {
+  position: absolute;
+  top: 0;
+}
+.posts1 {
+  left: 123px;
+}
+.m10 {
+  right: -1px;
+  font-weight: 600;
+}
+.frame,
+.mWrapper,
+.wrapper {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 58px;
+  height: 26px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-gray-400);
+}
+.frame,
+.wrapper {
+  left: 248px;
+  width: 43px;
+}
+.frame {
+  left: 123px;
+  width: 65px;
+}
+.followersParent {
+  position: absolute;
+  top: calc(50% - 455.63px);
+  left: 10px;
+  width: 307px;
+  height: 48px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.component10842 {
+  position: relative;
+  width: 85px;
+  height: 85px;
+}
+.component10842Parent {
+  position: absolute;
+  top: 152px;
+  right: 10px;
+  width: 184px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.component11817 {
+  position: absolute;
+  width: calc(100% + 6px);
+  top: calc(50% + 31.5px);
+  right: -6px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 66px;
+}
+.creatorProfile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1441px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+  font-family: var(--font-exo-2);
+}

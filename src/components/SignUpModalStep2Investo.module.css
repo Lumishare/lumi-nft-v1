@@ -1,0 +1,360 @@
+.signUpModalStep2InvestoChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  opacity: 0.21;
+}
+.letsCreateYour {
+  position: absolute;
+  top: calc(50% - 292.65px);
+  left: 144px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.groupChild {
+  position: absolute;
+  width: calc(100% - 42px);
+  top: calc(50% - 12px);
+  right: 24.5px;
+  left: 17.5px;
+  border-top: 1px solid #fc0;
+  box-sizing: border-box;
+  height: 2px;
+}
+.profileType {
+  top: 49px;
+  left: calc(50% - 37px);
+  text-transform: capitalize;
+}
+.div,
+.groupItem,
+.profileType {
+  position: absolute;
+}
+.groupItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  top: calc(50% - 9px);
+  left: calc(50% - 5px);
+  font-weight: 600;
+}
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.profileTypeParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 74px;
+}
+.div1,
+.signUp {
+  position: absolute;
+}
+.signUp {
+  top: 49px;
+  left: calc(50% - 25px);
+  text-transform: capitalize;
+}
+.div1 {
+  top: calc(50% - 9px);
+  left: calc(50% - 6px);
+  font-weight: 600;
+}
+.ellipseGroup {
+  position: absolute;
+  width: calc(100% - 10px);
+  top: 0;
+  right: 5px;
+  left: 5px;
+  height: 40px;
+  font-size: var(--font-size-3xl);
+}
+.signUpParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+}
+.lineParent {
+  position: absolute;
+  width: calc(100% - 199px);
+  top: calc(50% - 209px);
+  right: 99px;
+  left: 100px;
+  height: 63px;
+  font-size: var(--font-size-sm);
+}
+.signUp1 {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 35.5px);
+  line-height: 12px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.component1408Child,
+.signUpWrapper {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.signUpWrapper {
+  bottom: 40px;
+  background-color: var(--color-mediumseagreen);
+  height: 60px;
+}
+.component1408Child {
+  height: calc(100% - 24px);
+  top: 24px;
+  bottom: 0;
+  background-color: var(--color-gray-100);
+}
+.fullName {
+  position: absolute;
+  top: calc(50% - 33px);
+  left: 15px;
+  text-transform: capitalize;
+}
+.component1406,
+.component1407 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 253px;
+}
+.component1406 {
+  right: 0;
+}
+.component1407 {
+  left: 0;
+}
+.component1406Parent {
+  position: relative;
+  width: 535px;
+  height: 74px;
+}
+.gender {
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.unionIcon {
+  position: absolute;
+  top: calc(50% - 2.58px);
+  left: calc(50% - 4.75px);
+  width: 9.54px;
+  height: 5.23px;
+}
+.unionWrapper {
+  position: absolute;
+  top: calc(50% + 3px);
+  right: 12px;
+  width: 19px;
+  height: 19px;
+}
+.chooseYourGender {
+  position: absolute;
+  top: calc(50% + 4px);
+  left: 15px;
+  color: var(--color-silver-200);
+}
+.genderParent {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 535px;
+  height: 70px;
+}
+.country,
+.governmentIdPicture {
+  position: absolute;
+  left: 15px;
+  text-transform: capitalize;
+}
+.country {
+  top: 0;
+}
+.governmentIdPicture {
+  top: calc(50% - 58px);
+}
+.groupChild1,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  border: 1px dashed var(--color-gainsboro-100);
+}
+.groupChild1 {
+  height: calc(100% - 24px);
+  width: calc(100% - 459px);
+  top: 12px;
+  right: 447px;
+  bottom: 12px;
+  left: 12px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+}
+.upload {
+  position: absolute;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 25.2px);
+  font-weight: 500;
+}
+.uploadWrapper {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% + 156.5px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 91px;
+  height: 40px;
+}
+.iconlylightOutlinecamera {
+  position: absolute;
+  bottom: 10.5px;
+  left: 12.5px;
+  width: 20px;
+  height: 17.82px;
+}
+.iconlylightOutlinecameraWrapper {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% + 101.5px);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 45px;
+  height: 40px;
+}
+.iconlylightOutlineimage2 {
+  position: absolute;
+  top: calc(50% - 9.98px);
+  left: calc(50% - 227.48px);
+  width: 19.96px;
+  height: 19.95px;
+}
+.rectangleParent {
+  position: absolute;
+  height: calc(100% - 24px);
+  width: 100%;
+  top: 24px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: var(--color-gray-400);
+}
+.component1404 {
+  position: relative;
+  width: 535px;
+  height: 124px;
+}
+.component1408Parent,
+.groupParent {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.component1408Parent {
+  top: calc(50% - 517.5px);
+  height: 882px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.groupParent {
+  height: calc(100% + 572px);
+  top: 18px;
+  bottom: -590px;
+}
+.scrollGroup37 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 267.5px);
+  width: 535px;
+  height: 463px;
+  overflow-y: auto;
+  mix-blend-mode: normal;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.iconlylightOutlinecloseSqu {
+  position: absolute;
+  top: 11.27px;
+  right: 11.27px;
+  width: 29.46px;
+  height: 29.46px;
+}
+.letsCreateYourAccountParent {
+  position: absolute;
+  height: calc(100% - 248px);
+  top: 124px;
+  bottom: 124px;
+  left: calc(50% - 367px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 735px;
+}
+.signUpModalStep2Investo {
+  position: relative;
+  width: 1920px;
+  height: 920px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-exo-2);
+}
