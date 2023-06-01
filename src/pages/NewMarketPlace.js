@@ -4,6 +4,8 @@ import PortalPopup from "../components/PortalPopup";
 import ConnectWallet from "../components/ConnectWallet";
 import SwapATokens from "../components/SwapATokens";
 import SignUpModalStep1Choose from "../components/SignUpModalStep1Choose";
+import useWeb3Modal from "../hooks/useWeb3Modal";
+
 import { useNavigate } from "react-router-dom";
 import styles from "./NewMarketPlace.module.css";
 const NewMarketPlace = () => {
@@ -13,7 +15,13 @@ const NewMarketPlace = () => {
   const [isSignUpModalStep1ChooseOpen, setSignUpModalStep1ChooseOpen] =
     useState(false);
   const navigate = useNavigate();
-
+  const {
+    provider,
+    coinbase,
+    netId,
+    loadWeb3Modal,
+    logoutOfWeb3Modal
+  } = useWeb3Modal();
   const openStories = useCallback(() => {
     setStoriesOpen(true);
   }, []);
@@ -23,7 +31,8 @@ const NewMarketPlace = () => {
   }, []);
 
   const openConnectWallet = useCallback(() => {
-    setConnectWalletOpen(true);
+    //setConnectWalletOpen(true);
+    loadWeb3Modal()
   }, []);
 
   const closeConnectWallet = useCallback(() => {
