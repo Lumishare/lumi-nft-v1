@@ -1,5 +1,5 @@
-# lumi-nft-v1
-React js app for marketplace
+  # React app
+  React js app for marketplace
 
   # Lumishare
 
