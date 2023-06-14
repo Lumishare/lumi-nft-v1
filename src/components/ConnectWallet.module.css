@@ -9,7 +9,7 @@
 }
 .chooseHowYou {
   top: 66px;
-  font-size: var(--font-size-base);
+  font-size: 16px;
   line-height: 24px;
   display: inline-block;
   width: 353px;
@@ -57,9 +57,9 @@
   top: calc(50% - 320px);
   right: 32px;
   left: 32px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
   height: 60px;
 }
@@ -77,19 +77,19 @@
 .connectWalletParent,
 .showMoreWrapper {
   position: absolute;
-  background-color: var(--color-white);
+  background-color: #fff;
 }
 .showMoreWrapper {
   width: calc(100% - 64px);
   top: calc(50% - 157px);
   right: 32px;
   left: 32px;
-  border-radius: var(--br-5xs);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
   height: 60px;
   text-align: center;
-  font-size: var(--font-size-sm);
+  font-size: 14px;
 }
 .connectWalletParent {
   height: 100%;
@@ -108,7 +108,7 @@
   max-height: 100%;
   overflow: auto;
   text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-gray-400);
-  font-family: var(--font-exo-2);
+  font-size: 18px;
+  color: #060707;
+  font-family: "Exo 2";
 }

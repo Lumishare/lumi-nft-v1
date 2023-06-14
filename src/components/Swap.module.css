@@ -6,15 +6,15 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-darkslategray-200);
+  background-color: #2c3e50;
   opacity: 0.45;
 }
 .indicator {
   position: absolute;
   top: 6px;
   left: calc(50% - 16.5px);
-  border-radius: var(--br-11xs);
-  background-color: var(--color-darkslategray-100);
+  border-radius: 2px;
+  background-color: #454f63;
   width: 34px;
   height: 3px;
   opacity: 0.15;
@@ -31,8 +31,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-xl) var(--br-xl) 0 0;
-  background-color: var(--color-white);
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
   box-shadow: 0-1px 5px rgba(0, 0, 0, 0.28);
   height: 369px;
 }
@@ -63,9 +63,9 @@
   height: 55px;
   display: none;
   text-align: left;
-  font-size: var(--font-size-26xl);
-  color: var(--color-darkslategray-100);
-  font-family: var(--font-montserrat);
+  font-size: 45px;
+  color: #454f63;
+  font-family: Montserrat;
 }
 .component598Child {
   position: absolute;
@@ -75,9 +75,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-goldenrod);
-  border: 2px solid var(--color-goldenrod);
+  border-radius: 8px;
+  background-color: #fac73f;
+  border: 2px solid #fac73f;
   box-sizing: border-box;
 }
 .connectWallet {
@@ -95,7 +95,7 @@
   bottom: 30px;
   left: 20px;
   height: 45px;
-  font-size: var(--font-size-sm);
+  font-size: 14px;
 }
 .component477Child {
   position: absolute;
@@ -105,8 +105,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke);
+  border-radius: 8px;
+  background-color: #f7f8fa;
 }
 .div1 {
   position: absolute;
@@ -121,8 +121,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #e5e8eb;
 }
 .swap1,
 .unionIcon {
@@ -157,8 +157,8 @@
   right: 10px;
   bottom: 17px;
   width: 108px;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-400);
+  font-size: 14px;
+  color: #060707;
 }
 .component477,
 .component478 {
@@ -189,7 +189,7 @@
   left: 25px;
   height: 142px;
   text-align: left;
-  color: var(--color-silver-100);
+  color: #c6c8ce;
 }
 .swap {
   position: relative;
@@ -199,7 +199,7 @@
   max-height: 100%;
   overflow: auto;
   text-align: center;
-  font-size: var(--font-size-3xl);
-  color: var(--color-gray-400);
-  font-family: var(--font-exo-2);
+  font-size: 22px;
+  color: #060707;
+  font-family: "Exo 2";
 }

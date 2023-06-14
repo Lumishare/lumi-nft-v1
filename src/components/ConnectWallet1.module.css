@@ -6,15 +6,15 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-darkslategray-200);
+  background-color: #2c3e50;
   opacity: 0.45;
 }
 .indicator {
   position: absolute;
   top: 6px;
   left: calc(50% - 16.5px);
-  border-radius: var(--br-11xs);
-  background-color: var(--color-darkslategray-100);
+  border-radius: 2px;
+  background-color: #454f63;
   width: 34px;
   height: 3px;
   opacity: 0.15;
@@ -23,7 +23,7 @@
   position: absolute;
   top: 32px;
   left: calc(50% - 71.5px);
-  font-size: var(--font-size-3xl);
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
 }
@@ -31,7 +31,7 @@
   position: absolute;
   top: 116px;
   left: calc(50% - 167.5px);
-  font-size: var(--font-size-base);
+  font-size: 16px;
   line-height: 24px;
   display: inline-block;
   width: 336px;
@@ -78,9 +78,9 @@
   top: calc(50% - 41.5px);
   right: 20px;
   left: 20px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
   height: 60px;
 }
@@ -104,9 +104,9 @@
 .component5910Child,
 .walletConnectParent {
   position: absolute;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
 }
 .walletConnectParent {
@@ -140,7 +140,7 @@
   left: 20px;
   height: 45px;
   text-align: center;
-  font-size: var(--font-size-sm);
+  font-size: 14px;
 }
 .indicatorParent {
   position: absolute;
@@ -148,8 +148,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-xl) var(--br-xl) 0 0;
-  background-color: var(--color-white);
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
   box-shadow: 0-1px 5px rgba(0, 0, 0, 0.28);
   height: 491px;
 }
@@ -179,9 +179,9 @@
   width: 106.07px;
   height: 55px;
   display: none;
-  font-size: var(--font-size-26xl);
-  color: var(--color-darkslategray-100);
-  font-family: var(--font-montserrat);
+  font-size: 45px;
+  color: #454f63;
+  font-family: Montserrat;
 }
 .connectWallet {
   position: relative;
@@ -191,7 +191,7 @@
   max-height: 100%;
   overflow: auto;
   text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-gray-400);
-  font-family: var(--font-exo-2);
+  font-size: 18px;
+  color: #060707;
+  font-family: "Exo 2";
 }

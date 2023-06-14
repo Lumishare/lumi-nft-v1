@@ -9,7 +9,7 @@
 .storiesChild {
   width: 100%;
   left: 0;
-  background-color: var(--color-gray-200);
+  background-color: #231f20;
 }
 .maskGroup199 {
   width: calc(100% - 1px);
@@ -30,13 +30,13 @@
 .groupChild {
   top: 88.89%;
   bottom: 0;
-  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  border-radius: 0 0 10px 10px;
   background: linear-gradient(180deg, rgba(35, 31, 32, 0), #231f20);
 }
 .groupItem {
   top: 0;
   bottom: 88.89%;
-  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  border-radius: 10px 10px 0 0;
   background: linear-gradient(0deg, rgba(35, 31, 32, 0), #231f20);
 }
 .path44483Icon {
@@ -96,7 +96,7 @@
 }
 .h {
   right: -1px;
-  color: var(--color-silver-200);
+  color: #c4c4c4;
 }
 .groupParent,
 .iconFeatherSun {
@@ -140,8 +140,8 @@
 .replayToCreatorNameWrapper {
   width: 100%;
   right: 0;
-  border-radius: var(--br-4xl);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 23px;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
 }
 .groupWrapper {
@@ -156,8 +156,8 @@
   left: 18px;
   height: 46px;
   text-align: left;
-  font-size: var(--font-size-base);
-  color: var(--color-silver-200);
+  font-size: 16px;
+  color: #c4c4c4;
 }
 .maskGroup199Parent {
   position: absolute;
@@ -233,8 +233,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-gray-200);
+  border-radius: 10px;
+  background-color: #231f20;
 }
 .maskGroup200Parent {
   position: absolute;
@@ -314,7 +314,7 @@
   height: 920px;
   overflow: auto;
   text-align: center;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
-  font-family: var(--font-exo-2);
+  font-size: 14px;
+  color: #fff;
+  font-family: "Exo 2";
 }

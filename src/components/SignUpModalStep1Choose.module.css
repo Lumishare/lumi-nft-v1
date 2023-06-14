@@ -6,14 +6,14 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-gray-200);
+  background-color: #231f20;
   opacity: 0.21;
 }
 .letsCreateYour {
   position: absolute;
   top: calc(50% - 292.65px);
   left: 144px;
-  font-size: var(--font-size-21xl);
+  font-size: 40px;
   line-height: 40px;
   font-weight: 600;
 }
@@ -36,9 +36,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-gray-100);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #fafcff;
+  border: 1px solid #e5e8eb;
   box-sizing: border-box;
 }
 .creator {
@@ -52,7 +52,7 @@
   right: 100px;
   width: 258px;
   height: 60px;
-  font-size: var(--font-size-lg);
+  font-size: 18px;
 }
 .investor {
   position: absolute;
@@ -65,7 +65,7 @@
   left: 100px;
   width: 251px;
   height: 60px;
-  font-size: var(--font-size-lg);
+  font-size: 18px;
 }
 .next {
   position: absolute;
@@ -85,20 +85,20 @@
   top: calc(50% + 89px);
   right: 100px;
   left: 100px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-mediumseagreen);
-  border: 1px solid var(--color-gainsboro-100);
+  border-radius: 8px;
+  background-color: #34c77b;
+  border: 1px solid #e5e8eb;
   height: 60px;
   cursor: pointer;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
+  font-size: 20px;
+  color: #fff;
 }
 .groupChild {
   width: calc(100% - 42px);
   top: calc(50% - 12px);
   right: 24.5px;
   left: 17.5px;
-  border-top: 1px solid var(--color-gainsboro-100);
+  border-top: 1px solid #e5e8eb;
   height: 2px;
 }
 .profileType {
@@ -135,7 +135,7 @@
   width: 40px;
   height: 40px;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: 22px;
 }
 .profileTypeParent {
   position: absolute;
@@ -167,7 +167,7 @@
   right: 5px;
   left: 5px;
   height: 40px;
-  font-size: var(--font-size-3xl);
+  font-size: 22px;
 }
 .signUpParent {
   position: absolute;
@@ -184,7 +184,7 @@
   right: 99px;
   left: 100px;
   height: 63px;
-  font-size: var(--font-size-sm);
+  font-size: 14px;
 }
 .iconlylightOutlinecloseSqu {
   position: absolute;
@@ -199,8 +199,8 @@
   top: 124px;
   bottom: 124px;
   left: calc(50% - 367px);
-  border-radius: var(--br-lg);
-  background-color: var(--color-white);
+  border-radius: 18px;
+  background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   width: 735px;
 }
@@ -212,7 +212,7 @@
   max-height: 100%;
   overflow: auto;
   text-align: center;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-  font-family: var(--font-exo-2);
+  font-size: 16px;
+  color: #060707;
+  font-family: "Exo 2";
 }
