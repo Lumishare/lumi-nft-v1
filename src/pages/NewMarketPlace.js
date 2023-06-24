@@ -4,9 +4,10 @@ import PortalPopup from "../components/PortalPopup";
 import ConnectWallet from "../components/ConnectWallet";
 import SwapATokens from "../components/SwapATokens";
 import SignUpModalStep1Choose from "../components/SignUpModalStep1Choose";
+
 import { useNavigate } from "react-router-dom";
 import styles from "./NewMarketPlace.module.css";
-const NewMarketPlace = () => {
+const NewMarketPlace = (props) => {
   const [isStoriesOpen, setStoriesOpen] = useState(false);
   const [isConnectWalletOpen, setConnectWalletOpen] = useState(false);
   const [isSwapATokensOpen, setSwapATokensOpen] = useState(false);
@@ -23,7 +24,8 @@ const NewMarketPlace = () => {
   }, []);
 
   const openConnectWallet = useCallback(() => {
-    setConnectWalletOpen(true);
+    //setConnectWalletOpen(true);
+    props.loadWeb3Modal()
   }, []);
 
   const closeConnectWallet = useCallback(() => {

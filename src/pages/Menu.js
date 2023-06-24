@@ -2,10 +2,20 @@ import { useState, useCallback } from "react";
 import Swap from "../components/Swap";
 import PortalPopup from "../components/PortalPopup";
 import ConnectWallet1 from "../components/ConnectWallet1";
+import useWeb3Modal from "../hooks/useWeb3Modal";
+
 import styles from "./Menu.module.css";
 const Menu = () => {
   const [isSwapOpen, setSwapOpen] = useState(false);
   const [isConnectWalletOpen, setConnectWalletOpen] = useState(false);
+
+  const {
+    provider,
+    coinbase,
+    netId,
+    loadWeb3Modal,
+    logoutOfWeb3Modal
+  } = useWeb3Modal();
 
   const openSwap = useCallback(() => {
     setSwapOpen(true);
@@ -56,14 +66,17 @@ const Menu = () => {
             />
             <div className={styles.myCart}>My Cart</div>
           </div>
-          <div className={styles.walletParent} onClick={openConnectWallet}>
-            <img className={styles.walletIcon} alt="" src="/wallet1.svg" />
-            <div className={styles.myWallet}>My Wallet</div>
-          </div>
-          <div className={styles.logOutParent}>
-            <div className={styles.logOut}>Log Out</div>
-            <img className={styles.logOutIcon} alt="" src="/log-out.svg" />
-          </div>
+          {
+            coinbase ?
+            <div className={styles.walletParent} onClick={loadWeb3Modal}>
+              <img className={styles.walletIcon} alt="" src="/wallet1.svg" />
+              <div className={styles.myWallet}>My Wallet</div>
+            </div> :
+            <div className={styles.logOutParent}>
+              <div className={styles.logOut}>Log Out</div>
+              <img className={styles.logOutIcon} alt="" src="/log-out.svg" />
+            </div>
+          }
         </div>
         <img
           className={styles.component11813}
