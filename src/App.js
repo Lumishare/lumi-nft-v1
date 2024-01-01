@@ -21,18 +21,37 @@ import FarmProfile1 from "./pages/FarmProfile1";
 import Menu from "./pages/Menu";
 import AfterScrollingTheTitleWill from "./pages/AfterScrollingTheTitleWill";
 import { useEffect } from "react";
+import { AppContext, useAppState } from './hooks/useAppState'
+import useWeb3Modal from './hooks/useWeb3Modal'
 
 function App() {
   const action = useNavigationType();
   const location = useLocation();
   const pathname = location.pathname;
+  const { state, actions } = useAppState();
 
+  const {
+    provider,
+    coinbase,
+    netId,
+    loadWeb3Modal,
+    logoutOfWeb3Modal
+  } = useWeb3Modal();
   useEffect(() => {
+
     if (action !== "POP") {
       window.scrollTo(0, 0);
     }
   }, [action, pathname]);
-
+  useEffect(() => {
+    actions.setNetId(netId);
+  },[netId]);
+  useEffect(() => {
+    actions.setCoinbase(coinbase);
+  },[coinbase]);
+  useEffect(() => {
+    actions.setProvider(provider);
+  },[provider]);
   useEffect(() => {
     let title = "";
     let metaDescription = "";
@@ -120,7 +139,12 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<NewMarketPlace />} />
+      <Route path="/" element={
+        <NewMarketPlace
+          loadWeb3Modal={loadWeb3Modal}
+          logoutWeb3Modal={logoutOfWeb3Modal}
+         />
+      } />
       <Route path="/investor-profile" element={<InvestorProfile />} />
       <Route path="/farm-profile" element={<FarmProfile />} />
       <Route path="/creator-profile" element={<CreatorProfile />} />
